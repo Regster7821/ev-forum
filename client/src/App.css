@@ -1,0 +1,357 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.NavbarContainer{
+    display: flex;
+    width: 1000px;
+    height: 100px;
+    background-color: #0D1B2A;
+    border-radius: 10px;
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NavbarTitle{
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+    margin-left: 55px;
+}
+
+.NavbarLinksLeft{
+    color: white;
+    font-size: x-large;
+    text-decoration: none;
+    margin-left: 130px;
+}
+
+.NavbarLinksRight{
+    color: white;
+    font-size: x-large;
+    text-decoration: none;
+    margin-right: 130px;
+}
+
+.Container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ContentContainer{
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    min-height: 500px;
+    background-color: #0D1B2A;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.ContentHeader{
+    color: white;
+    margin-top: 15px;
+    font-weight: lighter;
+}
+
+.ForumListsContent{
+    display: flex;
+    width: 1200px;
+    min-height: 500px;
+    background-color: #0D1B2A;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+.LoginContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.LoginSignUpContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.LoginSignUpLowerContainer{
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    align-items: center;
+    width: 1100px;
+}
+
+.LoginLeftContainer{
+    display: inline-block;
+    width: 500px;
+    height: 600px;
+    background-color: #0D1B2A;
+    border-radius: 20px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.LoginSignUpSeparator{
+    display: inline-block;
+    width: 50px;
+}
+
+.SignUpRightContainer{
+    display: inline-block;
+    width: 500px;
+    height: 600px;
+    background-color: #0D1B2A;
+    border-radius: 20px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.LoginLeftContainer label{
+    color: white;
+    font-size: larger;
+}
+
+.LoginLeftContainer input{
+    color: black;
+    font-size: larger;
+    width: 275px;
+    height: 30px;
+    padding-left: 5px;
+}
+
+.SignUpRightContainer label{
+    color: white;
+    font-size: larger;
+}
+
+.SignUpRightContainer input{
+    color: black;
+    font-size: larger;
+    width: 275px;
+    height: 30px;
+    padding-left: 5px;
+}
+
+.SubmitButton{
+    background-color: white;
+    width: 75px;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+}
+
+.SubmitLink{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.UsernameError{
+    display: inline-block;
+    background-color: white;
+    /* padding: 5px 10px 5px 10px; */
+    height: 20px;
+    color: red;
+    border-radius: 10px;
+    position: absolute;
+    top: 295px;
+    left: 860px;
+}
+
+.PasswordError{
+    display: inline-block;
+    background-color: white;
+    /* padding: 5px 10px 5px 10px; */
+    height: 20px;
+    color: red;
+    border-radius: 10px;
+    position: absolute;
+    top: 400px;
+    left: 860px;
+}
+
+.EmailError{
+    display: inline-block;
+    background-color: white;
+    /* padding: 5px 10px 5px 10px; */
+    height: 20px;
+    color: red;
+    border-radius: 10px;
+    position: absolute;
+    top: 505px;
+    left: 860px;
+}
+
+.BirthdateError{
+    display: inline-block;
+    background-color: white;
+    /* padding: 5px 10px 5px 10px; */
+    height: 20px;
+    color: red;
+    border-radius: 10px;
+    position: absolute;
+    top: 610px;
+    left: 860px;
+}
+
+.HeaderLink{
+    color: white;
+    text-decoration: none;
+}
+
+.test-header{
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    font-size: xx-large;
+    color: white;
+}
+
+.CreatePostContentContainer{
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    min-height: 500px;
+    background-color: #0D1B2A;
+    margin-top: 15px;
+    border-radius: 20px;
+    /* align-items: center; */
+}
+
+.CreatePostContentHeader{
+    color: white;
+    margin-top: 15px;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 15px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+}
+
+.CreatePostForm{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.CreatPostFormTitle{
+    width: 600px;
+    height: 25px;
+    font-size: large;
+    padding-left: 5px;
+    margin-bottom: 15px;
+    /* align-self: center; */
+}
+
+.CreatPostFormSubject{
+    width: 600px;
+    height: 25px;
+    font-size: large;
+    padding-left: 5px;
+    margin-bottom: 15px;
+    /* align-self: center; */
+}
+
+.CreatPostFormBody{
+    /* width: 600px; */
+    height: 335px;
+    font-size: large;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.CreatePostSubmitButton{
+    background-color: white;
+    width: 125px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    top: 150px;
+    left: 1175px;
+    font-size: larger;
+}
+
+.TitleError{
+    color: red;
+    position: absolute;
+    top: 200px;
+    left: 750px;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.SubjectError{
+    color: red;
+    position: absolute;
+    top: 240px;
+    left: 750px;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.BodyError{
+    color: red;
+    position: absolute;
+    top: 250px;
+    left: 1105px;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.SinglePostContainer{
+    display: flex;
+    flex-direction: column;
+    width: 1170px;
+    min-height: 150px;
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.SinglePostTitle{
+    align-self: center;
+    font-size: x-large;
+    font-weight: lighter;
+    margin-top: -10px;
+}
+
+.SinglePostSubject{
+    align-self: center;
+    font-size: larger;
+    font-weight: lighter;
+    margin-top: 3px;
+}
+
+.SinglePostBody{
+    font-size: large;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-top: 5px;
+    min-height: 100px;
+}
+
+.PostTitleLink{
+    color: black;
+    text-decoration: none;
+}
